@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Jun 14 21:19:27 2022
+# Make data base, printed on Tue Jun 14 23:56:18 2022
 
 # Variables
 
@@ -25,7 +25,7 @@ UUID = 282e6a88-4a02-40a4-a79d-3b79c9763559
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-39a8f4f9-e577-477a-9564-9c8348a52c35.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-6d9b3f32-966a-4bac-80fb-dc1bf3629391.sock
 # makefile (from '.env', line 2)
 MOVIES_URL = http://localhost:10002
 # environment
@@ -113,7 +113,7 @@ MAKEFILE_LIST := Makefile .env
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 1959651
+VSCODE_PID = 2096124
 # environment
 SDL_VIDEO_MINIMIZE_ON_FOCUS_LOSS = 0
 # environment
@@ -207,7 +207,7 @@ which_declare = declare -f
 # environment
 DEBUGINFOD_URLS = https://debuginfod.fedoraproject.org/ 
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 1959651
+GIO_LAUNCHED_DESKTOP_FILE_PID = 2096124
 # environment
 _ = /usr/bin/make
 # environment
@@ -259,9 +259,9 @@ GDMSESSION = gnome
 
 # Directories
 
-# . (device 40, inode 2005227): 9 files, no impossibilities.
+# . (device 40, inode 2005227): 10 files, no impossibilities.
 
-# 9 files, no impossibilities in 1 directories.
+# 10 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -282,9 +282,7 @@ Makefile:
 #  Last modified 2022-06-14 16:43:35.543944026
 #  File has been updated.
 #  Successfully updated.
- 
 
- 
 # Not a target:
 .DEFAULT:
 #  Implicit rule search has not been done.
@@ -303,6 +301,7 @@ run:
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 5):
+ 
 	go run cmd/main.go
 
 # files hash-table stats:
@@ -313,12 +312,12 @@ run:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 15 / storage = 113 B / avg = 7 B
-# current buf: size = 8162 B / used = 113 B / count = 15 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 16 / storage = 118 B / avg = 7 B
+# current buf: size = 8162 B / used = 118 B / count = 16 / avg = 7 B
 
-# strcache performance: lookups = 22 / hit rate = 31%
+# strcache performance: lookups = 23 / hit rate = 30%
 # hash-table stats:
-# Load=15/8192=0%, Rehash=0, Collisions=0/22=0%
-# Finished Make data base on Tue Jun 14 21:19:27 2022
+# Load=16/8192=0%, Rehash=0, Collisions=0/23=0%
+# Finished Make data base on Tue Jun 14 23:56:18 2022
 
  
