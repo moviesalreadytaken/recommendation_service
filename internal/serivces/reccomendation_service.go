@@ -45,7 +45,7 @@ func (s *MovieReccomendationService) GenRecommndation(userId uuid.UUID) ([]db.Mo
 	if err != nil {
 		return nil, err
 	}
-	acceptedMovs := make([]db.Movie, 1)
+	acceptedMovs := make([]db.Movie, 0)
 	for i := 0; i < len(movies); i++ {
 		minAge := movies[i].MinAge
 		age := time.Since(user.Birthdate)
